@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Net;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using WebApiDemo.Data.Dtos;
 using WebApiDemo.Data.Models;
 using WebApiDemo.Data.Repositories;
+using WebApiSharedDtos;
 
 namespace WebApiDemo.Controllers
 {

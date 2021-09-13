@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebApiDemo.Data.Dtos
+namespace WebApiSharedDtos
 {
     public class CreateEmployeeDto
     {
@@ -38,6 +38,12 @@ namespace WebApiDemo.Data.Dtos
         public DateTime StartDate { get; set; }
 
         public string PhoneNumber { get; set; }
+
+        public override string ToString()
+        {
+            return
+                $"{nameof(Id)}: {Id}, {nameof(Name)}: {Name}, {nameof(Surname)}: {Surname}, {nameof(Email)}: {Email}, {nameof(StartDate)}: {StartDate}, {nameof(PhoneNumber)}: {PhoneNumber}";
+        }
     }
 
     public class UpdateEmployeeDto

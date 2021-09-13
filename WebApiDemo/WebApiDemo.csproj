@@ -20,4 +20,8 @@
         <Folder Include="Controllers" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\WebApiSharedDtos\WebApiSharedDtos.csproj" />
+    </ItemGroup>
+
 </Project>

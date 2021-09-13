@@ -1,6 +1,6 @@
 using AutoMapper;
-using WebApiDemo.Data.Dtos;
 using WebApiDemo.Data.Models;
+using WebApiSharedDtos;
 
 namespace WebApiDemo.Data.MappingProfiles
 {

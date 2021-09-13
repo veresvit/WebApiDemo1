@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
-using WebApiDemo.Data.Dtos;
 using WebApiDemo.Data.Models;
+using WebApiSharedDtos;
 
 namespace WebApiDemo.Data.Repositories
 {
